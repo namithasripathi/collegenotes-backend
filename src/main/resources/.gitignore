@@ -1,0 +1,29 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Environment files
+.env
+
+# Application properties (contains secrets)
+src/main/resources/application.properties
+
+# Jar/WAR files
+*.jar
+*.war
+
+# Temp files
+*.tmp
+*.temp
