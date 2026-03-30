@@ -7,7 +7,7 @@ RUN mvn clean package -DskipTests
 # Stage 2: Run app
 FROM openjdk:17-jdk-slim
 WORKDIR /app
-COPY --from=build /app/target/*.jar app.jar
+COPY --from=build /app/target/portal-1.0.0.jar app.jar
 
 EXPOSE 8080
 

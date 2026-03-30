@@ -1,0 +1,35 @@
+# Dependencies
+target/
+node_modules/
+*.jar
+*.war
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Uploads (don't commit user files)
+uploads/
+
+# Maven
+.m2/
+
+# Build artifacts
+build/
+dist/
